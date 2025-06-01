@@ -62,12 +62,11 @@
             background-color: #1DAE52;
         }
         .image-container img {
-            /* max-width: 100%; */ /* Removido para permitir que o contêiner controle o tamanho se necessário, mas mantido para responsividade */
             height: auto;
             border-radius: 12px;
             margin-bottom: 20px;
             box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-            display: block; /* Garante que margin auto funcione se usado, mas flex é melhor */
+            display: block;
         }
         .modal {
             position: fixed;
@@ -108,7 +107,7 @@
             <div class="image-container flex justify-center">
                 <img src="https://image.pollinations.ai/prompt/Two%20kissing%20emojis%20with%20a%20heart%20above" alt="Foto Especial" id="userImage" class="max-w-full">
                 </div>
-            <h1 class="text-3xl font-bold mb-6 title-font">Quer sair comigo Mari??</h1>
+            <h1 class="text-3xl font-bold mb-6 title-font">Quer sair comigo??</h1>
             <div class="flex justify-center space-x-4">
                 <button id="btnNao" class="button button-no py-3 px-6 rounded-lg text-lg font-semibold">
                     Não
